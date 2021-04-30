@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.apache.commons.text.TextStringBuilderTest" time="0.061" tests="99" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/yutarokashiwa/Documents/200_Development/210_Git/TestEffortEstimationOnRefactoring/repos/x/commons-text/target/test-classes:/Users/yutarokashiwa/Documents/200_Development/210_Git/TestEffortEstimationOnRefactoring/repos/x/commons-text/target/classes:/Users/yutarokashiwa/.m2/repository/org/apache/commons/commons-lang3/3.8/commons-lang3-3.8.jar:/Users/yutarokashiwa/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.2.0/junit-jupiter-engine-5.2.0.jar:/Users/yutarokashiwa/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/yutarokashiwa/.m2/repository/org/junit/platform/junit-platform-engine/1.2.0/junit-platform-engine-1.2.0.jar:/Users/yutarokashiwa/.m2/repository/org/junit/platform/junit-platform-commons/1.2.0/junit-platform-commons-1.2.0.jar:/Users/yutarokashiwa/.m2/repository/org/opentest4j/opentest4j/1.1.0/opentest4j-1.1.0.jar:/Users/yutarokashiwa/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.2.0/junit-jupiter-api-5.2.0.jar:/Users/yutarokashiwa/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.2.0/junit-jupiter-params-5.2.0.jar:/Users/yutarokashiwa/.m2/repository/org/junit/platform/junit-platform-launcher/1.2.0/junit-platform-launcher-1.2.0.jar:/Users/yutarokashiwa/.m2/repository/org/assertj/assertj-core/3.11.0/assertj-core-3.11.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="JP"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/yutarokashiwa/Documents/200_Development/210_Git/TestEffortEstimationOnRefactoring/repos/x/commons-text/target/surefire/surefirebooter7799229904706788337.jar /Users/yutarokashiwa/Documents/200_Development/210_Git/TestEffortEstimationOnRefactoring/repos/x/commons-text/target/surefire 2020-07-02T11-09-13_128-jvmRun1 surefire2775724259178548696tmp surefire_03032649246889370073tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/yutarokashiwa/Documents/200_Development/210_Git/TestEffortEstimationOnRefactoring/repos/x/commons-text/target/test-classes:/Users/yutarokashiwa/Documents/200_Development/210_Git/TestEffortEstimationOnRefactoring/repos/x/commons-text/target/classes:/Users/yutarokashiwa/.m2/repository/org/apache/commons/commons-lang3/3.8/commons-lang3-3.8.jar:/Users/yutarokashiwa/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.2.0/junit-jupiter-engine-5.2.0.jar:/Users/yutarokashiwa/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/yutarokashiwa/.m2/repository/org/junit/platform/junit-platform-engine/1.2.0/junit-platform-engine-1.2.0.jar:/Users/yutarokashiwa/.m2/repository/org/junit/platform/junit-platform-commons/1.2.0/junit-platform-commons-1.2.0.jar:/Users/yutarokashiwa/.m2/repository/org/opentest4j/opentest4j/1.1.0/opentest4j-1.1.0.jar:/Users/yutarokashiwa/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.2.0/junit-jupiter-api-5.2.0.jar:/Users/yutarokashiwa/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.2.0/junit-jupiter-params-5.2.0.jar:/Users/yutarokashiwa/.m2/repository/org/junit/platform/junit-platform-launcher/1.2.0/junit-platform-launcher-1.2.0.jar:/Users/yutarokashiwa/.m2/repository/org/assertj/assertj-core/3.11.0/assertj-core-3.11.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/yutarokashiwa"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/yutarokashiwa/Documents/200_Development/210_Git/TestEffortEstimationOnRefactoring/repos/x/commons-text"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/yutarokashiwa/Documents/200_Development/210_Git/TestEffortEstimationOnRefactoring/repos/x/commons-text/target/surefire/surefirebooter7799229904706788337.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="user.name" value="yutarokashiwa"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/yutarokashiwa/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/rj/g3hh6nvj1w58mv16js__mgkc0000gn/T/"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="user.dir" value="/Users/yutarokashiwa/Documents/200_Development/210_Git/TestEffortEstimationOnRefactoring/repos/x/commons-text"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/yutarokashiwa/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="testAsTokenizer" classname="org.apache.commons.text.TextStringBuilderTest" time="0.001"/>
+  <testcase name="testDeleteAll_String" classname="org.apache.commons.text.TextStringBuilderTest" time="0.001"/>
+  <testcase name="testEndsWith" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testGetSetNullText" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="test_LANG_1131_EqualsWithNullTextStringBuilder" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testReadFromReaderAppendsToEnd" classname="org.apache.commons.text.TextStringBuilderTest" time="0.001"/>
+  <testcase name="testIndexOfLang294" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testSubSequenceIntInt" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testGetChars" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testLastIndexOf_String" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testDeleteAll_char" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testAppendStringBuilderNull" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testLastIndexOf_char_int" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testReadFromReadable" classname="org.apache.commons.text.TextStringBuilderTest" time="0.006"/>
+  <testcase name="testAppendTakingTwoIntsWithZeroThrowsStringIndexOutOfBoundsException" classname="org.apache.commons.text.TextStringBuilderTest" time="0.001"/>
+  <testcase name="testAppendToStringBuffer" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testClear" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testSize" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testTrim" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testRightString" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testToString" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testConstructors" classname="org.apache.commons.text.TextStringBuilderTest" time="0.001"/>
+  <testcase name="testReplace_StringMatcher_String_int_int_int_VaryCount" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testReadFromCharBuffer" classname="org.apache.commons.text.TextStringBuilderTest" time="0.005"/>
+  <testcase name="testLastIndexOf_StringMatcher" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testMinimizeCapacity" classname="org.apache.commons.text.TextStringBuilderTest" time="0.001"/>
+  <testcase name="testSubstringIntInt" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testLang412Left" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testContains_String" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testEqualsIgnoreCase" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testCapacityAndLength" classname="org.apache.commons.text.TextStringBuilderTest" time="0.001"/>
+  <testcase name="testReadFromReadableAppendsToEnd" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testAsReader" classname="org.apache.commons.text.TextStringBuilderTest" time="0.001"/>
+  <testcase name="testToStringBuilder" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testReplaceAll_String_String" classname="org.apache.commons.text.TextStringBuilderTest" time="0.001"/>
+  <testcase name="testAsWriter" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testLang294" classname="org.apache.commons.text.TextStringBuilderTest" time="0.001"/>
+  <testcase name="testLang295" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testReplaceAll_char_char" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testLastIndexOf_String_int" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testDeleteCharAt" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testReplaceFirst_String_String" classname="org.apache.commons.text.TextStringBuilderTest" time="0.001"/>
+  <testcase name="testContains_char" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testDeleteIntInt" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testReplace_StringMatcher_String_int_int_int_VaryEndIndex" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testReplaceFirst_StringMatcher_String" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testReplaceFirst_char_char" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testIndexOf_char" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testReplace_StringMatcher_String_int_int_int_VaryMatcher" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testReplace_int_int_String" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testToCharArray" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testIndexOf_StringMatcher" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testReplace_StringMatcher_String_int_int_int_VaryReplace" classname="org.apache.commons.text.TextStringBuilderTest" time="0.001"/>
+  <testcase name="testAppendCharBufferException" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testEnsureCapacity" classname="org.apache.commons.text.TextStringBuilderTest" time="0.001"/>
+  <testcase name="testLang412Right" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testDeleteFirst_String" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testIndexOf_StringMatcher_int" classname="org.apache.commons.text.TextStringBuilderTest" time="0.001"/>
+  <testcase name="testAppendToStringBuilder" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testMidString" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testAppendCharSequence" classname="org.apache.commons.text.TextStringBuilderTest" time="0.001"/>
+  <testcase name="testCapacity" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testReadFromCharBufferAppendsToEnd" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testReverse" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testSetCharAt" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testHashCode" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testSubstringInt" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testSetLength" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testAppendToWriter" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testDeleteAll_StringMatcher" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testContains_StringMatcher" classname="org.apache.commons.text.TextStringBuilderTest" time="0.001"/>
+  <testcase name="testCharAt" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testEquals" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testLastIndexOf_char" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testLeftString" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testIndexOf_String_int" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testLastIndexOf_StringMatcher_int" classname="org.apache.commons.text.TextStringBuilderTest" time="0.001"/>
+  <testcase name="testLength" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testDeleteFirst_char" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testAppendToCharBuffer" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testDeleteFirst_StringMatcher" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testAppendCharBufferNull" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testIsEmpty" classname="org.apache.commons.text.TextStringBuilderTest" time="0.002"/>
+  <testcase name="testToCharArrayIntInt" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testGetSetNewLineText" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testToStringBuffer" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testReadFromReader" classname="org.apache.commons.text.TextStringBuilderTest" time="0.002"/>
+  <testcase name="testAppendln" classname="org.apache.commons.text.TextStringBuilderTest" time="0.001"/>
+  <testcase name="testAsBuilder" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testAppendTakingTwoIntsWithIndexOutOfBoundsThrowsStringIndexOutOfBoundsExceptionTwo" classname="org.apache.commons.text.TextStringBuilderTest" time="0.001"/>
+  <testcase name="testIndexOf_String" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testIndexOf_char_int" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testDeleteCharAtWithNegative" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testReplaceAll_StringMatcher_String" classname="org.apache.commons.text.TextStringBuilderTest" time="0.001"/>
+  <testcase name="testGetCharsIntIntCharArrayInt" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testStartsWith" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testAppendCharBuffer" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testChaining" classname="org.apache.commons.text.TextStringBuilderTest" time="0"/>
+  <testcase name="testReplace_StringMatcher_String_int_int_int_VaryStartIndex" classname="org.apache.commons.text.TextStringBuilderTest" time="0.001"/>
+</testsuite>

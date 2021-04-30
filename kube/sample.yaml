@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test-break
+spec:
+  selector:
+    matchLabels:
+      app: test-break
+  replicas: {number of replicas}
+  template:
+    metadata:
+      name: test-break
+      labels:
+        app: test-break
+    spec:
+      containers:
+        - name: {container name}
+          image: {docker image name}
+          imagePullPolicy: Always
+          command:
+          - "sh"
+            - "-c"
+            - "cd /usr/work/ \
+                   && sh scripts/sh/{shell script file name}"

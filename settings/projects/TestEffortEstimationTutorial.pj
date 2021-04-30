@@ -1,0 +1,5 @@
+name=TestEffortEstimationTutorial
+abb=TEE
+url=https://github.com/s141015/TestEffortEstimationTutorial.git
+branch=master
+selogger_exception=,e=aaa/
