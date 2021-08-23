@@ -1,6 +1,22 @@
 <H1>Replication package of "Does Refactoring Break Tests and to What Extent?"</H1>
-This repository includes the replication package and results of an ICSME 2021's submission. 
+This repository includes the replication package and results of an ICSME 2021's paper. 
 This program can run on your local computer or Kubernetes server. We strongly recommend to run it on Kubernetes because builds, tests, and the impact analysis take numorous time to be completed. 
+</br>
+</br>
+If you are using this tool in your research, please cite the following papers:
+</br>
+
+```
+@inproceedings{Kashiwa:ICSME:2021:TestBreakAnalysis,
+author = {Kashiwa, Yutaro and Shimizu, Kazuki and Lin, Bin and Bavota, Gabriele and Lanza, Michele and Kamei, Yasutaka and Ubayashi, Naoyasu},
+title = {Does Refactoring Break Tests and to What Extent?},
+booktitle = {Proceedings of the 37th International Conference on Software Maintenance and Evolution},
+series = {ICSME '21},
+year = {2021},
+location = {Luxembourg City, Luxembourg (ONLINE)},
+pages = {(to appear)},
+}
+```
 
 # Results
 All the results that we used are located in "results_in_paper" directory
@@ -46,23 +62,12 @@ Our source code is located in "src" directory.
 ```
 CREATE ROLE test_break LOGIN PASSWORD 'PASSWORD HERE'; 
 ```
+  
+&nbsp;&nbsp;&nbsp;&nbsp;6.2. create a database
+```
+CREATE DATABASE test_break with OWNER=test_break;
+```
 
-&nbsp;&nbsp;&nbsp;&nbsp;6.2. exit from postgres
-  
-&nbsp;&nbsp;&nbsp;&nbsp;6.3. login
-```
-psql -Utest_break
-```
-  
-&nbsp;&nbsp;&nbsp;&nbsp;6.4. create a database
-```
-CREATE DATABASE test_break
-```
-  
-&nbsp;&nbsp;&nbsp;&nbsp;6.5. give all the privileges on the created database to the created user
-```
-GRANT ALL PRIVILEGES ON DATABASE test_break TO test_break;
-```
 
 **7. Run a sql script (script/sql/init.sql) to create a database and schemas**
 ```
